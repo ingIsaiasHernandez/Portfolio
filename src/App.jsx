@@ -9,7 +9,6 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
 import TopBtn from "./components/TopBtn";
 
 const App = () => {
@@ -24,7 +23,6 @@ const App = () => {
       <Skills />
       <Services />
       <Portfolio />
-      {/* <Testimonials /> */}
       <Contact />
       <Footer />
       <TopBtn />
