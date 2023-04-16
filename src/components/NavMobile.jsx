@@ -7,8 +7,7 @@ import { navigation } from "../data";
 import { XIcon } from "@heroicons/react/outline";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
 
-/***** import components ******/
-import Socials from "./Socials";
+
 
 /***** import components ******/
 import { motion } from "framer-motion";
