@@ -11,7 +11,7 @@ const Skills = () => {
           {skills.map((skill, index) => {
             return (
               <div key={index} className="flex items-center justify-center ">
-                <img src={skill.image} alt="" />
+                {/* <img src={skill.image} alt="" /> */}
               </div>
             );
           })}

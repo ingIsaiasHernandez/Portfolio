@@ -17,10 +17,7 @@ const Services = () => {
             Habilidades
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            praesentium natus sapiente consequatur hic, perspiciatis non
-            pariatur iste accusamus facere nam, optio corrupti ipsum. Aliquam,
-            voluptatem. Magnam, officia! Tenetur, expedita!
+            Habilidades basadas en PERN Stack como PostgreSQL , Express, React, y node.js para crear aplicaciónes web con operaciones CRUD.
           </p>
         </div>
         {/* item grid */}
@@ -28,8 +25,8 @@ const Services = () => {
           {services.map((service, index) => {
             const { icon, name, description } = service;
             return <div className="bg-secondary p-6 rounded-2xl" key={index}>
-                <div className="text-accent rounded-sm w-12 h-12 flex justify-center item-center mb-24 text-[28px]">
-                    {icon}
+                <div className="w-16 h-16 flex justify-center item-center mb-24">
+                    <img src={icon} alt="" />
                 </div>
                 <h4 className="text-xl font-medium">{name}</h4>
               <p>

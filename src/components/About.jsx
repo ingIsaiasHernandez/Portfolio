@@ -26,14 +26,14 @@ const About = () => {
                 before:-top-[2rem] before:hidden
                 before:lg:block"
               >
-                Isaias Hernandez
+                Acerca de mí
               </h2>
               <p className="mb-4 text-accent">
                 Desarrollador Front-End | ReactJs
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Me considero una persona persistente, honesta y trabajadora, con
+                Me considero persistente, honesto y trabajador, con
                 capacidad de trabajo en equipo, bajo condiciones de alta
                 presión, con iniciativa para resolver problemas para lograr las
                 metas y objetivos trazados en mi crecimiento profesional.
@@ -41,7 +41,7 @@ const About = () => {
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover">
               <a href="#contact">
-              Contáctame
+              Descarga CV
               </a>
             </button>
           </div>

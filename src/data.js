@@ -2,10 +2,6 @@
 import {
   FiGithub,
   FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
   FiLinkedin,
@@ -19,22 +15,29 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/pokedex.png';
+
+
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import Html from './assets/img/skills/html5.png';
+import Css from './assets/img/skills/css3.png';
+import Js from './assets/img/skills/js.png';
+import Reactjs from './assets/img/skills/reactjs.png';
+import Nextjs from './assets/img/skills/nextjs.png';
+import Nodejs from './assets/img/skills/nodejs.png';
+import Git from './assets/img/skills/git.png';
+import Npm from './assets/img/skills/npm.png';
+import Sass from './assets/img/skills/sass.png';
+import Material from './assets/img/skills/material.png';
+import Tailwind from './assets/img/skills/tailwindcss.png';
+import Express from './assets/img/skills/express.png';
+import Postgre from './assets/img/skills/postgre.png';
+
+
+
+
+
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -60,10 +63,6 @@ export const navigation = [
     href: 'portfolio',
   },
   
-  // {
-  //   name: 'testimonios',
-  //   href: 'testimonials',
-  // },
   {
     name: 'contacto',
     href: 'contact',
@@ -116,110 +115,140 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'app de Pokédex',
+    category: 'video juegos',
+    url: "https://pokedex-isaias-hernandez.netlify.app/"
   },
-  {
-    id: '2',
-    image: Project2,
-    name: 'project name 2',
-    category: 'web development',
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: 'todos',
   },
   {
-    name: 'UI/UX Design',
+    name: 'video juegos',
   },
   {
-    name: 'web development',
+    name: 'ecommerce',
   },
   {
-    name: 'branding',
+    name: 'app de ayuda',
+  },
+  {
+    name: 'redes sociales',
+  },
+  {
+    name: 'entretenimiento',
   },
 ];
 
 // skill
 export const skills = [
   {
-    image: SkillImg1,
+    image: Html,
   },
   {
-    image: SkillImg2,
+    image: Css,
   },
   {
-    image: SkillImg3,
+    image: Js,
   },
   {
-    image: SkillImg4,
+    image: Reactjs,
   },
   {
-    image: SkillImg5,
+    image: Nextjs,
   },
   {
-    image: SkillImg6,
+    image: Nodejs,
   },
   {
-    image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
+    image: Git,
+  }
 ];
 
 // services
 export const services = [
   {
-    icon: <FiLayout />,
-    name: 'Web Design',
+    icon: Npm,
+    name: 'NPM',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Administrador de paquetes para el lenguaje de programación JavaScript.',
   },
   {
-    icon: <FiSettings />,
-    name: 'Web Development',
+    icon: Git,
+    name: 'Git',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Sistema de control de versiones distribuido que realiza un seguimiento de los cambios en cualquier conjunto de archivos de computadora.',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: Css,
+    name: 'CSS',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Una tecnología de hojas de estilo utilizado para describir la presentación de un documento escrito en un lenguaje de marcado como HTML',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: Html,
+    name: 'HTML',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'HTML es el lenguaje de marcado estándar para documentos diseñados para mostrarse en un navegador web.',
+  },
+  {
+    icon: Js,
+    name: 'Javascript',
+    description:
+      'Lenguaje de programación que es una de las tecnologías centrales de la World Wide Web.',
+  },
+  {
+    icon: Reactjs,
+    name: 'Reactjs',
+    description:
+      'Una biblioteca JavaScript front-end gratuita y de código abierto para crear interfaces de usuario basadas en componentes.',
+  },
+  {
+    icon: Sass,
+    name: 'Sass',
+    description:
+      'Lenguaje de secuencias de comandos de preprocesador que se interpreta o compila en hojas de estilo en cascada.',
+  },
+  {
+    icon: Material,
+    name: 'Material UI',
+    description:
+      'Biblioteca de componentes de interfaz de usuario para React, diseñada para ayudar a los desarrolladores a construir aplicaciones web moderna',
+  },
+  {
+    icon: Tailwind,
+    name: 'TailwindCss',
+    description:
+      'Framework CSS que da prioridad a la utilidad sobre el propio estilo.',
+  },
+  {
+    icon: Nextjs,
+    name: 'NextJs',
+    description:
+      'Marco de desarrollo web de código abierto basadas en React con representación del lado del servidor y generación de sitios web estáticos.',
+  },
+  {
+    icon: Nodejs,
+    name: 'NodeJs',
+    description:
+      'Entorno de tiempo de ejecución de JavaScript de back-end.',
+  },
+  {
+    icon: Express,
+    name: 'Express',
+    description:
+      'Un marco de aplicaciones web back-end para crear API RESTful con Node.js',
+  },
+
+  {
+    icon: Postgre,
+    name: 'PostgreSQL',
+    description:
+      'Sistema de administración de bases de datos relacionales gratuito y de código abierto que enfatiza la extensibilidad y el cumplimiento de SQL',
   },
 ];
 

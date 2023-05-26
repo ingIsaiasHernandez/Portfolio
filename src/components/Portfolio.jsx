@@ -16,13 +16,10 @@ const Portfolio = () => {
                     before:hidden before:lg:block
                     "
           >
-            Mi último trabajo
+            Portafolio
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            dolore reiciendis praesentium quia nulla. Nobis autem dolorum at
-            culpa, maxime atque recusandae odit dicta aperiam dolorem iste
-            soluta magni animi!
+            Proyectos hechos con amor con ReactJs
           </p>
         </div>
         <Projects />
