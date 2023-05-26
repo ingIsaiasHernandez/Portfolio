@@ -17,10 +17,6 @@ const Contact = () => {
             Contáctame          
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            unde esse accusantium natus sint obcaecati repellat adipisci
-            explicabo quae earum deserunt ducimus, error sunt consequuntur.
-            Eveniet quidem at veniam distinctio.
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">
