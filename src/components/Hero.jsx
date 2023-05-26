@@ -1,8 +1,6 @@
 import React from "react";
 
-// import picture
 
-import WomanImg from "../assets/img/banner-woman2.webp";
 
 const Hero = () => {
   return (
@@ -28,7 +26,7 @@ const Hero = () => {
           </div>
           {/* right side
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={WomanImg} alt="" />
+            <img src={} alt="" />
           </div> */}
         </div>
       </div>
