@@ -16,6 +16,13 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/pokedex.png';
+import Project2 from './assets/img/projects/clothes.png';
+import Project3 from './assets/img/projects/electronics.png';
+import Project4 from './assets/img/projects/weather.png';
+import Project5 from './assets/img/projects/rickandmorthy.png';
+import Project6 from './assets/img/projects/users.png';
+
+
 
 
 
@@ -33,16 +40,6 @@ import Material from './assets/img/skills/material.png';
 import Tailwind from './assets/img/skills/tailwindcss.png';
 import Express from './assets/img/skills/express.png';
 import Postgre from './assets/img/skills/postgre.png';
-
-
-
-
-
-
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -115,17 +112,61 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'app de Pokédex',
+    name: 'App de Pokédex',
     category: 'video juegos',
     url: "https://pokedex-isaias-hernandez.netlify.app/"
   },
-
+  {
+    id: '2',
+    image: Project2,
+    name: 'Tienda de ropa',
+    category: 'ecommerce',
+    url: "https://clothes-store-academlo.netlify.app/"
+  },
+  {
+    id: '3',
+    image: Project3,
+    name: 'Articulos de electrónica',
+    category: 'ecommerce',
+    url: "https://electronicss-shop.netlify.app/"
+  },
+  {
+    id: '4',
+    image: Project4,
+    name: 'App de clima',
+    category: 'app de ayuda',
+    url: "https://weatrher-app-of-isaias.netlify.app"
+  },
+  {
+    id: '5',
+    image: Project5,
+    name: 'Rick and Morthy',
+    category: 'entretenimiento',
+    url: "https://rick-and-morty-isaias.netlify.app/"
+  },
+  {
+    id: '6',
+    image: Project6,
+    name: 'CRUD de usuarios',
+    category: 'app de ayuda',
+    url: "https://users-app-of-isaias-and-angel.netlify.app/"
+  },
+  // {
+  //   id: '7',
+  //   image: Project6,
+  //   name: 'agencia de viajes',
+  //   category: 'empresarial',
+  //   url: "https://users-app-of-isaias-and-angel.netlify.app/"
+  // },
 ];
 
 // projects
 export const projectsNav = [
   {
     name: 'todos',
+  },
+  {
+    name: 'Empresarial',
   },
   {
     name: 'video juegos',
@@ -252,30 +293,6 @@ export const services = [
   },
 ];
 
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
 
 // contact
 export const contact = [

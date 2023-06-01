@@ -33,6 +33,11 @@ const About = () => {
               </p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
+              <span className="text-accent">Hola</span> mi nombre es <span className="text-accent">Isaias Hernández Gómez</span>, tengo 31 años de edad y soy un desarrollador
+                web entusiasta y apasionado con la tecnología. me encanta explorar nuevas herramientas 
+                y crear productos de alta calidad.
+              </p>
+              <p className="mb-8">
                 Me considero persistente, honesto y trabajador, con
                 capacidad de trabajo en equipo, bajo condiciones de alta
                 presión, con iniciativa para resolver problemas para lograr las
