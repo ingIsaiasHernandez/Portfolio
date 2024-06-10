@@ -15,6 +15,7 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
+import Project0 from './assets/img/projects/agency.png';
 import Project1 from './assets/img/projects/pokedex.png';
 import Project2 from './assets/img/projects/clothes.png';
 import Project3 from './assets/img/projects/electronics.png';
@@ -109,6 +110,13 @@ export const brands = [
 
 // projects
 export const projectsData = [
+  {
+    id: '0',
+    image: Project0,
+    name: 'App de Pokédex',
+    category: 'empresarial',
+    url: "https://rolo-tours.netlify.app/"
+  },
   {
     id: '1',
     image: Project1,
